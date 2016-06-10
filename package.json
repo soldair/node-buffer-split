@@ -1,11 +1,16 @@
 {
   "name": "buffer-split",
   "description": "split a buffer by another buffer. think String.split()",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "repository": {
     "url": "git://github.com/soldair/node-buffer-split.git"
   },
-  "keywords":["buffer","split","chunks","binary"],
+  "keywords": [
+    "buffer",
+    "split",
+    "chunks",
+    "binary"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "node test/*.js"
