@@ -12,7 +12,7 @@ module.exports = function(buf,splitBuf,includeDelim){
     buf = buf.slice(search+splitBuf.length,buf.length);
   }
 
-  if(buf.length) lines.push(buf);
+  lines.push(buf);
         
   return lines;
 }
