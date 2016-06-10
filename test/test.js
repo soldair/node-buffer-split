@@ -24,6 +24,10 @@ test("can split",function(t){
 
   t.equals(result.length,2,"should have all results");
 
+  result = bsplit(new Buffer('foo'),new Buffer(','));
+
+  t.equals(result.length,1,"should have all results");
+
   t.end();
 
 })
